@@ -1,0 +1,235 @@
+{
+  "id": "78480d9a-4f0d-4316-910c-b7e891d784ab",
+  "version": "2.0",
+  "name": "product Test",
+  "url": "https://frontbuildstage.ariansystemdp.local",
+  "tests": [{
+    "id": "d91f8346-7d30-46b7-8068-6e62ec16f962",
+    "name": "مرکز پروژه",
+    "commands": [{
+      "id": "f6f1d917-9857-4685-88a9-ee77963123b4",
+      "comment": "",
+      "command": "open",
+      "target": "/fa",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b209ab0d-471c-4b63-af0c-c759ecd93fc9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbb63f06-7685-4931-880c-cafdc9b8b841",
+      "comment": "",
+      "command": "click",
+      "target": "id=Login_username",
+      "targets": [
+        ["id=Login_username", "id"],
+        ["name=username", "name"],
+        ["css=#Login_username", "css:finder"],
+        ["xpath=//input[@id='Login_username']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9925631e-359a-4b07-a893-1b6baec633db",
+      "comment": "",
+      "command": "type",
+      "target": "id=Login_username",
+      "targets": [
+        ["id=Login_username", "id"],
+        ["name=username", "name"],
+        ["css=#Login_username", "css:finder"],
+        ["xpath=//input[@id='Login_username']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "78b213fc-2aa0-4707-b482-1f446b3b56f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=Login_password",
+      "targets": [
+        ["id=Login_password", "id"],
+        ["name=password", "name"],
+        ["css=#Login_password", "css:finder"],
+        ["xpath=//input[@id='Login_password']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/div[2]/div/div[2]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70a44c52-12e5-4b16-a4ac-e4086a6097cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=Login_password",
+      "targets": [
+        ["id=Login_password", "id"],
+        ["name=password", "name"],
+        ["css=#Login_password", "css:finder"],
+        ["xpath=//input[@id='Login_password']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/div[2]/div/div[2]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "465276d0-4cb1-45b1-a185-bce39fe4f4d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='Login']/div[4]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ورود')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a2dacb3-2684-4673-888c-bafbdb80b644",
+      "comment": "",
+      "command": "click",
+      "target": "css=.z-50 > svg",
+      "targets": [
+        ["css=.z-50 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c733f999-df27-45aa-a959-86ec887460a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-title-content",
+      "targets": [
+        ["css=.ant-menu-title-content", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'اطلاعات پایه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb45c00c-88fd-431e-a2d7-5e8cb1e3b775",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-submenu-active > .ant-menu-submenu-title",
+      "targets": [
+        ["css=.ant-menu-submenu-active > .ant-menu-submenu-title", "css:finder"],
+        ["xpath=//ul[@id='rc-menu-uuid-63827-1-1-popup']/li/div", "xpath:idRelative"],
+        ["xpath=//li/ul/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75e24792-6e6f-4051-8b3c-216be6ff642d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item:nth-child(6) > .ant-menu-title-content span",
+      "targets": [
+        ["css=.ant-menu-item:nth-child(6) > .ant-menu-title-content span", "css:finder"],
+        ["xpath=//ul[@id='rc-menu-uuid-63827-1-2-popup']/li[6]/span[2]/button/span", "xpath:idRelative"],
+        ["xpath=//li[6]/span[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d08be8c6-d822-4454-9fbe-09f688390d17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-black-black8 > svg",
+      "targets": [
+        ["css=.bg-black-black8 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "83ad79fa-6692-49bf-b068-d3d1c95dc893",
+      "comment": "",
+      "command": "click",
+      "target": "id=ProjectCode",
+      "targets": [
+        ["id=ProjectCode", "id"],
+        ["css=#ProjectCode", "css:finder"],
+        ["xpath=//input[@id='ProjectCode']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3e43a6a-e82f-443a-a36f-d12655f74feb",
+      "comment": "",
+      "command": "type",
+      "target": "id=ProjectCode",
+      "targets": [
+        ["id=ProjectCode", "id"],
+        ["css=#ProjectCode", "css:finder"],
+        ["xpath=//input[@id='ProjectCode']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "025"
+    }, {
+      "id": "80eb5903-3edb-49e4-b849-d3f4c06a989e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ProjectDesc",
+      "targets": [
+        ["id=ProjectDesc", "id"],
+        ["css=#ProjectDesc", "css:finder"],
+        ["xpath=//input[@id='ProjectDesc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8dd89e8-ccc6-498e-9b9a-2323e0a33aab",
+      "comment": "",
+      "command": "type",
+      "target": "id=ProjectDesc",
+      "targets": [
+        ["id=ProjectDesc", "id"],
+        ["css=#ProjectDesc", "css:finder"],
+        ["xpath=//input[@id='ProjectDesc']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "پروداکت 4"
+    }, {
+      "id": "0b5adeba-78f0-41b8-bad2-560540092a44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-black-black8 > span",
+      "targets": [
+        ["css=.bg-black-black8 > span", "css:finder"],
+        ["xpath=//button[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ذخیره')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99865922-07c9-4a3a-a054-bd28f31e60a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-\\[calc\\(100dvh-4\\.0625rem\\)\\] > .w-full",
+      "targets": [
+        ["css=.h-\\[calc\\(100dvh-4\\.0625rem\\)\\] > .w-full", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a6b6aa3-a7ce-4b70-aa85-a2e3190e8bef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-black-black8 > span",
+      "targets": [
+        ["css=.bg-black-black8 > span", "css:finder"],
+        ["xpath=//button[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ذخیره')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3c816b84-7bb9-4b48-bb66-55e9dc6f2363",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d91f8346-7d30-46b7-8068-6e62ec16f962"]
+  }],
+  "urls": ["https://frontbuildstage.ariansystemdp.local/"],
+  "plugins": []
+}
